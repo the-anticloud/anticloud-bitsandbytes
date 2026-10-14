@@ -1,0 +1,89 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:370d35c5-06de-5153-b082-e41aee0785d1",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T10:08:02Z",
+  "component": {
+   "type": "application",
+   "name": "BITSANDBYTES",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/BITSANDBYTES@83b357604d34",
+   "purl": "pkg:generic/anticloud/BITSANDBYTES@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "OpenMP",
+   "version": "unspecified",
+   "purl": "pkg:generic/OpenMP",
+   "bom-ref": "native/OpenMP@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "CUDAToolkit",
+   "version": "unspecified",
+   "purl": "pkg:generic/CUDAToolkit",
+   "bom-ref": "native/CUDAToolkit@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "hipblaslt",
+   "version": "unspecified",
+   "purl": "pkg:generic/hipblaslt",
+   "bom-ref": "native/hipblaslt@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "torch",
+   "version": ">=2.4",
+   "purl": "pkg:pypi/torch@2.4",
+   "bom-ref": "pypi/torch@>=2.4"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": ">=1.17",
+   "purl": "pkg:pypi/numpy@1.17",
+   "bom-ref": "pypi/numpy@>=1.17"
+  },
+  {
+   "type": "library",
+   "name": "packaging",
+   "version": ">=20.9",
+   "purl": "pkg:pypi/packaging@20.9",
+   "bom-ref": "pypi/packaging@>=20.9"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
