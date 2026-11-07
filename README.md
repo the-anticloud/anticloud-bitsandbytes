@@ -277,8 +277,7 @@ Upstream (c) its contributors under MIT - see `UPSTREAM_CLONE/LICENSE`. This pac
 ## Benchmarks
 
 Measured by the Anticloud assurance suite. Every value below is read from this
-project's `BENCH.json`, produced by a real run — the SHA3-256 of that file is
-`cccbf9638a439376c5bfcc0672ddc94bbf976e18f9ebb99ca969d0da59d237ff`.
+project's `BENCH.json`, produced by a real run — the SHA3-256 of `BENCH.json`: `1a0f01852dc8cce90a28de76a3671a624f4509bdfc69192fb005d3bf172895b7`.
 
 | Framework | Controls | Evidence | Coverage | Result |
 |---|---|---|---|---|
